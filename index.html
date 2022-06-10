@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <center>
+        <p>pomodoro timer</p>
+        <div id="wrapper">
+            <div id="work-time"></div>
+            <div id="break-time"></div>
+        </div>
+        <button onclick="workWatch('start')" id="start-work">start work</button>
+        <button disabled="true" onclick="breakWatch()" id="start-break">start break</button>
+        <button disabled="true" onclick="workWatch('resume')" id="resume-work">resume work</button>
+        <button onclick="endWork()" id=" end-work">end work</button>
+    </center>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

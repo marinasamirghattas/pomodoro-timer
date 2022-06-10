@@ -1,0 +1,28 @@
+p {
+    font-size: 120px;
+    color: rgb(41, 226, 186);
+}
+
+button {
+    background-color: gray;
+    color: white;
+    width: 120px;
+    height: 40px;
+    border-radius: 15px;
+    margin-top: 90px;
+    margin-left: 20px;
+
+
+}
+
+button:focus {
+    background-color: rgb(41, 226, 186);
+}
+
+div {
+    font-size: 50px;
+}
+
+#wrapper {
+    margin-top: 200px;
+}
